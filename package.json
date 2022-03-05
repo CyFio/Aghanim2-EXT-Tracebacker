@@ -1,0 +1,22 @@
+{
+  "name": "aghanim2_ext_tracebacker",
+  "version": "1.0.0",
+  "description": "Dota2 Aghanim2 EXT error tracebacker",
+  "main": "main.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aghanim2",
+    "ext"
+  ],
+  "author": "CyFio",
+  "license": "ISC"
+}
