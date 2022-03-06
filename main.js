@@ -19,7 +19,8 @@ function logfile_path(){
 app.use(bodyParser())
 
 app.use(async ctx => {
-  ctx.body = ctx.request.body
+  ctx.body = '200 OK'
+  // ctx.body = ctx.request.body
   // console.log(ctx.request.body.message) 
   if (!fs.existsSync(logfile_dir)){
     fs.mkdirSync(logfile_dir, { recursive: true })
